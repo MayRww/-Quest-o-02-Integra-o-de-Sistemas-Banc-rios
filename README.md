@@ -15,6 +15,6 @@ O adaptador também traduz a resposta do legado para o formato moderno.
 
 os princípios solids utilizado:
 
-RP	Cada classe tem uma responsabilidade única (processar, adaptar ou simular o legado).
-OCP	O sistema pode ser estendido com novos adaptadores sem alterar o código existente.
-DIP	O código moderno depende da abstração (ProcessadorTransacoes), não do sistema legado.# -Quest-o-02-Integra-o-de-Sistemas-Banc-rios
+RP	Cada classe tem uma responsabilidade única (processar, adaptar ou simular o legado), 
+OCP	O sistema pode ser estendido com novos adaptadores sem alterar o código existente, 
+DIP	O código moderno depende da abstração (ProcessadorTransacoes), não do sistema legado.
